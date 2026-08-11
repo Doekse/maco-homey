@@ -1,0 +1,45 @@
+{
+  "name": {
+    "en": "Universal Sensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "alarm_contact",
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": ["AAA"]
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "matter"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "matter": {
+    "vendorId": 5447,
+    "productId": 1005,
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/pair.svg",
+      "instruction": {
+        "en": "When inserting the battery for the first time, the sensor automatically enters Matter pairing mode. This is indicated by a flashing status LED.\n\nIf the LED is not flashing, perform a soft reset by pressing and holding the button for at least 5 seconds until the LED turns off, then release.",
+        "nl": "Bij het voor het eerst plaatsen van de batterij gaat de sensor automatisch in de Matter-koppelingsmodus. Dit wordt aangegeven door een knipperende status-LED.\n\nAls de LED niet knippert, voer dan een zachte reset uit door de knop minstens 5 seconden ingedrukt te houden totdat de LED uitgaat en laat dan los.",
+        "de": "Beim ersten Einlegen der Batterie tritt der Sensor automatisch in den Matter-Pairing-Modus ein. Dies wird durch eine blinkende Status-LED angezeigt.\n\nWenn die LED nicht blinkt, führen Sie einen Soft-Reset durch, indem Sie die Taste mindestens 5 Sekunden lang gedrückt halten, bis die LED erlischt, und dann loslassen.",
+        "fr": "Lors de la première insertion de la pile, le capteur entre automatiquement en mode d'appairage Matter. Ceci est indiqué par une LED de statut clignotante.\n\nSi la LED ne clignote pas, effectuez une réinitialisation douce en maintenant le bouton enfoncé pendant au moins 5 secondes jusqu'à ce que la LED s'éteigne, puis relâchez.",
+        "it": "Quando si inserisce la batteria per la prima volta, il sensore entra automaticamente in modalità di abbinamento Matter. Questo è indicato da un LED di stato lampeggiante.\n\nSe il LED non lampeggia, eseguire un reset soft tenendo premuto il pulsante per almeno 5 secondi finché il LED non si spegne, quindi rilasciare.",
+        "es": "Al insertar la batería por primera vez, el sensor entra automáticamente en modo de emparejamiento Matter. Esto se indica mediante un LED de estado parpadeante.\n\nSi el LED no parpadea, realice un reinicio suave manteniendo pulsado el botón durante al menos 5 segundos hasta que el LED se apague y luego suéltelo.",
+        "da": "Når batteriet indsættes for første gang, går sensoren automatisk i Matter-parringstilstand. Dette indikeres af en blinkende status-LED.\n\nHvis LED'en ikke blinker, udfør en blød nulstilling ved at holde knappen nede i mindst 5 sekunder, indtil LED'en slukker, og slip derefter.",
+        "no": "Når batteriet settes inn for første gang, går sensoren automatisk inn i Matter-parringsmodus. Dette indikeres av en blinkende status-LED.\n\nHvis LED-en ikke blinker, utfør en myk tilbakestilling ved å holde knappen inne i minst 5 sekunder til LED-en slukker, og slipp deretter.",
+        "sv": "När batteriet sätts i för första gången går sensorn automatiskt in i Matter-parringsläge. Detta indikeras av en blinkande status-LED.\n\nOm LED-lampan inte blinkar, utför en mjuk återställning genom att hålla knappen intryckt i minst 5 sekunder tills LED-lampan slocknar och släpp sedan.",
+        "pl": "Po pierwszym włożeniu baterii czujnik automatycznie przechodzi w tryb parowania Matter. Jest to sygnalizowane migającą diodą LED statusu.\n\nJeśli dioda LED nie miga, wykonaj miękki reset, przytrzymując przycisk przez co najmniej 5 sekund, aż dioda LED zgaśnie, a następnie zwolnij.",
+        "ru": "При первой установке батареи датчик автоматически переходит в режим сопряжения Matter. Об этом свидетельствует мигающий светодиод состояния.\n\nЕсли светодиод не мигает, выполните мягкий сброс, удерживая кнопку не менее 5 секунд, пока светодиод не погаснет, затем отпустите.",
+        "ko": "배터리를 처음 삽입하면 센서가 자동으로 Matter 페어링 모드로 진입합니다. 이는 깜빡이는 상태 LED로 표시됩니다.\n\nLED가 깜빡이지 않으면 버튼을 최소 5초 동안 눌러 LED가 꺼질 때까지 유지한 후 놓아 소프트 리셋을 수행하세요."
+      }
+    }
+  }
+}

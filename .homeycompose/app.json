@@ -1,0 +1,45 @@
+{
+  "id": "eu.maco",
+  "version": "0.0.2",
+  "compatibility": ">=12.4.0",
+  "sdk": 3,
+  "brandColor": "#007DC5",
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "platformLocalRequiredFeatures": [
+    "matter"
+  ],
+  "name": {
+    "en": "MACO"
+  },
+  "description": {
+    "en": "Technology in motion"
+  },
+  "category": [
+    "security"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Mayer & Co Beschläge GmbH",
+    "email": "abe.haverkamp+maco@homey.app"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Abe Haverkamp (developer)"
+      },
+      {
+        "name": "Bas van der Ploeg (icons)"
+      }
+    ]
+  },
+  "source": "https://github.com/Doekse/maco-homey",
+  "support": "mailto:abe.haverkamp+maco@homey.app"
+}
