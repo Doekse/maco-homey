@@ -4,5 +4,8 @@
   },
   "0.0.2": {
     "en": "Added device icons and pairing animations"
+  },
+  "0.0.3": {
+    "en": "Added Homey Forum topic ID"
   }
 }

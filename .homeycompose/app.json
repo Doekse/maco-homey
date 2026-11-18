@@ -1,6 +1,6 @@
 {
   "id": "eu.maco",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "compatibility": ">=12.4.0",
   "sdk": 3,
   "brandColor": "#007DC5",
@@ -41,5 +41,6 @@
     ]
   },
   "source": "https://github.com/Doekse/maco-homey",
-  "support": "mailto:abe.haverkamp+maco@homey.app"
+  "support": "mailto:abe.haverkamp+maco@homey.app",
+  "homeyCommunityTopicId": 162416
 }
