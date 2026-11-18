@@ -10,5 +10,8 @@
   },
   "0.0.4": {
     "en": "Added some missing translations"
+  },
+  "1.0.0": {
+    "en": "First stable release"
   }
 }
