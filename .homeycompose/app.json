@@ -1,6 +1,6 @@
 {
   "id": "eu.maco",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "compatibility": ">=12.4.0",
   "sdk": 3,
   "brandColor": "#007DC5",
@@ -12,10 +12,34 @@
     "matter"
   ],
   "name": {
-    "en": "MACO"
+    "en": "MACO",
+    "nl": "MACO",
+    "de": "MACO",
+    "fr": "MACO",
+    "it": "MACO",
+    "es": "MACO",
+    "da": "MACO",
+    "no": "MACO",
+    "sv": "MACO",
+    "pl": "MACO",
+    "ru": "MACO",
+    "ko": "MACO",
+    "ar": "MACO"
   },
   "description": {
-    "en": "Technology in motion"
+    "en": "Technology in motion",
+    "nl": "Techniek in beweging",
+    "de": "Technik, die bewegt",
+    "fr": "La technologie qui évolue",
+    "it": "Tecnologia che si muove",
+    "es": "Tecnología que se mueve",
+    "da": "Teknologi i bevægelse",
+    "no": "Teknologi i bevegelse",
+    "sv": "Teknik i rörelse",
+    "pl": "Technika, która porusza",
+    "ru": "Технология, которая движется",
+    "ko": "움직이는 기술",
+    "ar": "تقنية قيد الحركة"
   },
   "category": [
     "security"
